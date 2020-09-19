@@ -5,12 +5,12 @@ int Guess ( int ) ;
 
 int main  ( )
 {
-	int num , Round ;
-	srand(time(NULL)) ;
-	num = 1 + rand() % 10 ;
+    int num , Round ;
+    srand(time(NULL)) ;
+    num = 1 + rand() % 10 ;
 
-	cout << " ##### Welcome To Guessing Number Game ##### " << endl ;
-	cout << " Secret Number Has Been Chosen " << endl ;
+    cout << " ##### Welcome To Guessing Number Game ##### " << endl ;
+    cout << " Secret Number Has Been Chosen " << endl ;
     Round = Guess(num) ;
 
     cout << " Congratulations ! " << endl ;
